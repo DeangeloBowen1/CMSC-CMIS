@@ -1,0 +1,49 @@
+<!--Language detector for website-->
+<html lang="en">
+<head>
+    <title>Page 2</title>
+    <link rel= "stylesheet" type= "text/css"
+          href= "{{ url_for('static',filename='styles/style.css') }}">
+</head>
+<!--Start and head of website-->
+<body>
+    <h1>Italian Original Pizza</h1>
+    <h2><i>"The best places in Italy and what to have"</i></h2>
+    <div class="separate">
+        <ol>
+            <!--Unstructured bullet points to be shown on website-->
+            <p>Although you don't have to be in Italy to enjoy Italian pizza (<i>although it helps!</i>)
+            it's hard to argue against the fact that sometimes the Italians just do it better. To enjoy what
+            makes Italian pizza so great, outside of the recipie, it's great to have a starting point on
+            some of the better pizza ever made. Here is a list of some pizza to try if you ever find yourself
+            in Italy:</p>
+            <li>Pepe in Grani, Caiazzo (Campania) - Margherita</li>
+            <li>Pizzarium, Rome - Potato and Mozzarela</li>
+            <li>50 Kalo, Naples- Marinara</li>
+            <li>I Tigli, Verona- Shrimp Shashimi</li>
+            <li>Pizzeria Fratelli Salvo, Naples- Cosacca</li>
+            <li>...any many more!</li>
+        </ol>
+    </div>
+    <div class="separate">
+            <!--Second Bullet points with more structure.-->
+            <p>While the main home of these pizza may be Italy, it doesn't mean you can't find them elsewhere
+            with similar or even better quality than some of these restaurants. There are many places in the world that do
+            make great quality pizza. That includes here in the West! On the last and final page of this website
+            find out what pizza in America stick out, and where to find them on your next trip around the states!</p>
+    </div>
+    <br>
+    <a href="main.html">Front Page</a>
+    <a href="page3.html">Globally Inspired Pizza (Page 3)</a>
+    <br>
+    <br>
+    <b>To see the rest of the most famous pizza places in Italy, please clikc the link below!</b>
+    <br>
+    <a href="https://www.foodandwine.com/travel/europe/italy/pizzas-in-italy?slide=b4477a21-4773-460b-a52c-
+    f3603acc399a#b4477a21-4773-460b-a52c-f3603acc399a">Pizzas in Italy</a>
+    <br>
+    <br>
+    <!--Displays date on website using python function-->
+    <p>Today's date is {{date}}, also known as PIZZA-TIME!</p>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!--Language detector for website-->
+<html lang="en">
+<head>
+    <title>Main Page</title>
+    <link rel= "stylesheet" type= "text/css"
+          href= "{{ url_for('static',filename='styles/style.css') }}">
+</head>
+<!--Start and head of website-->
+<body>
+    <h1><b>The Delight of Pizza</b></h1>
+    <h2><i>"Italian Pizza and it's many tastes"</i></h2>
+    <div class="separate">
+        <!--Unstructured bullet points to be shown on website-->
+        <p>There are many various kinds of pizza around the world. Each of them are different.
+            Most contain various different cheeses, meats, vegetables, and styles or shapes, but
+            they all have one major thing in common-- They are absolutely delcious.</p>
+        <p>On page 1 and 2 of this website we will discuss some of the most delicious pizza
+            in the world, and where they come from. Let's start!</p>
+    </div>
+    <div class="separate">
+        <ul>
+            <!--Second Bullet points with more structure.-->
+            <li>On Page 1 you can find the Italian original pizza.</li>
+            <li>On Page 2 you can find the many inspired pizza that has developed
+            around the globe.</li>
+        </ul>
+    </div>
+    <br>
+    <!--Links to second and third pages on website-->
+    <a href="/page2.html">Italian Original Pizza (Page 2)</a>
+    <a href="/page3.html">Globally Inspired Pizza (Page 3)</a>
+    <br>
+    <br>
+    <!--Links to alternative websites with changable link name-->
+    <b> There are also many places in the world that have such amazing pizza.
+        Please click on the link below if you'd like to learn about these places and what
+        kind of pizza they offer!</b>
+    <br>
+    <br>
+    <a href="https://traveltriangle.com/blog/places-in-the-world-to-have-the-best-pizza/">
+        The best places in the world to have pizza - Alternative Site</a>
+    <br>
+    <!--Displays date on website using python function-->
+    <p>Today's date is {{date}}, also known as PIZZA-TIME!</p>
+</body>
+</html>
